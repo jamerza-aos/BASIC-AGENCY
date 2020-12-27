@@ -5,6 +5,7 @@ const routes = require('./routes')
 const nav = require('./nav.json')
 
 
+
 app.use(express.static('public'))
 app.set('view engine', 'ejs')
 
