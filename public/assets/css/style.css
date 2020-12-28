@@ -364,17 +364,16 @@ footer {
   height: 100vh;
 }
 
-.one4 {
+.one4  {
   width: 35%;
   margin-top: 2%;
 }
 
-
-.one4 li:nth-of-type(1){
+.one4 li:nth-of-type(1) {
   font-size: 25px;
   font-family: "scto-medium";
 }
-.one4 li:nth-of-type(2){
+.one4 li:nth-of-type(2) {
   font-size: 30px;
   width:50%;
   padding-top: 40%;
@@ -388,7 +387,7 @@ footer {
   font-family: "scto-regular";
 }
 
-.one4 a {
+.one4 a ,.zwei4 a ,.drei4 a ,.fier4 a  {
   display: inline-block;
   font-family: "scto-bold";
   border: 1px solid #252422;
@@ -396,7 +395,7 @@ footer {
   border-radius: 30px;
   margin-top: 20%;
 }
-.one4 a:hover {
+.one4 a:hover ,.zwei4 a:hover, .drei4 a:hover, .fier4 a:hover {
   color: #fff;
   background-color: #252422;
 }
@@ -409,39 +408,42 @@ footer {
 
 }
 .vedio3 video{
-  width:100%;
+  width:83%;
   height: 65vh;
 }
 
 .Beats img{
  width:100%;
- height: 65vh;
-
+ height: 61vh;
+ padding-top: 4%;
+padding-right: 5%;
 }
+.vedio3 ul{
+  padding-left: 5%;
+  padding-right: 0;
+}
+
 .vedio3 li:nth-of-type(2) , .Beats li:nth-of-type(2) {
   font-size: 25px;
   font-weight: bold;
   padding-top: 5%;
   font-family: "scto-bold";
 }
-.vedio3 li:nth-of-type(2){
-  padding-left: 7%;
-}
 
 .vedio3 li:last-child  {
   font-size:17px;
   width: 40%;
-  padding-left: 7%;
   padding-top: 6%;
   font-family: "scto-medium";
 }
 
-.Beats li:last-child  {
-  font-size:17px;
-  width: 60%;
-  padding-top: 6%;
-  font-family: "scto-medium";
+.vedio3 img{
+  width:100%;
+  height:65vh ;
 }
+
+
+
 
 
 
