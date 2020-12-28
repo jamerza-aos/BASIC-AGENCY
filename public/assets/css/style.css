@@ -26,7 +26,6 @@ li {
     list-style-type: none;
 }
 
-
 #navbar {
     display: flex;
     width: 90%;
@@ -52,7 +51,287 @@ li {
     padding-bottom: 2%;
 }
 
-.navItem li:hover {
-    border-bottom: 1px solid #252422;
+/* /////////// INDEX /////////////// */
+#INDEXsection{
+  color: #252422;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 8%;
+}
+
+.videos video {
+  width: 100%;
+  border-bottom: 2px solid #252422;
+  padding-bottom: 2%;
+}
+
+#INDEXsection h1 {
+  font-size: 5rem;
+  width: 50%;
+}
+
+#INDEXsection h1 {
+  font-size: 80px;
+  width: 50%;
+}
+#INDEXsection h2 {
+  font-size: 80px;
+  text-align: right;
+  margin-top: 2%;
+}
+.punkt {
+  background: #252422;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#INDEXsection p {
+  margin-top: 1%;
+}
+
+#IndexArticle {
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  margin-top: 4%;
+  padding-bottom: 10%;
+  border-bottom: 2px solid #252422;
+}
+.basic {
+  width: 50%;
+}
+.basic h3 {
+  font-size: 2.6rem;
+  margin-bottom: 15%;
+}
+.basic a {
+  font-family: "scto-bold";
+  border: 1px solid #252422;
+  padding: 1% 6%;
+  border-radius: 30px;
+}
+.basic a:hover {
+  color: #fff;
+  background-color: #252422;
+}
+
+.logoo {
+  width: 30%;
+}
+/*//////////// scrole ///////////////*/
+
+#scrole{
+  color: #252422;
+  width: 90%;
+  margin:8% 5% 5% 5%;
+}
+
+.scroleDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  overflow-x: auto;
+  margin-top: 5%;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  min-width: 100%;
+}
+.scroleDiv div{
+  min-width: 29%;
+  margin-right: 7%;
+  margin-bottom: 10%;
+}
+
+.scroleDiv  img{
+  width:30%;
+  margin-bottom: 2%;
+}
+
+#scrole h1 {
+  font-size: 50px;
+  width: 30%;
+}
+
+.scroleDiv h6 {
+  width: 20%;
+  font-size:20px;
+}
+
+.scroleDiv h4 {
+  font-size: 23px;
+  margin-top: 10%;
+}
+
+.scroleDiv h5 {
+  font-size: 20px;
+  width: 70%;
+  margin-top: 4%;
+  padding-top: 4%;
+  border-top: 2px solid #252422;
+}
+
+#IndexSection2{
+  margin: 5% 5% 0% 5%;
+  color: #f9cdcd;
+  min-height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #252422;
+}
+
+.Helps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10%;
+  padding-top: 10%;
+  width: 100%;
+}
+
+.video2 {
+  width: 80%;
+}
+.video2 video {
+  width: 100%;
+}
+
+.Helps1 a {
+  border: 1px solid #f9cdcd;
+  padding: 1% 6%;
+  border-radius: 30px;
+}
+
+.Helps1 a:hover {
+  color: #252422;
+  background: #f9cdcd;
+  border: 1px solid #f9cdcd;
+  padding: 1% 6%;
+  border-radius: 30px;
+}
+
+.Helps1 h3 {
+  font-size: 90px;
+  width: 65%;
+  height: 80vh;
+}
+
+.Helps1 p {
+  font-family: "scto-regular";
+  margin-top: 8%;
+  margin-bottom: 15%;
+}
+
+#FeaturedNews h1 {
+  font-family: "scto-bold";
+  font-size: 3rem;
+}
+.News {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5%;
+  border-top: 2px solid #f9cdcd;
+  padding-top: 3%;
+}
+.adweekNews {
+  width: 80%;
+  display: flex;
+}
+.adweekText h2 {
+  font-family: "scto-medium";
+  font-size: 3rem;
+  margin-left: 3%;
+  width: 80%;
+}
+.adweekText p {
+  font-family: "scto-regular";
+  margin-top: 20%;
+  margin-left: 3%;
+  font-size: 20px;
+}
+.adweekText span {
+  margin-left: 4%;
+}
+.adweekNews img {
+  width: 40%;
+}
+.NewsImg {
+  text-align: right;
+}
+.NewsImg img {
+  width: 30%;
+}
+
+/* ///////// FOOTER /////////// */
+
+.footerSection1 div {
+  background: url(../img/footer-logo-bg-white.svg) center/cover no-repeat;
+  height: 4vh;
+  width: 5.3%;
+  display: none;
+}
+.footerSection {
+  color: #f4f4f4;
+  background-color: #252422;
+  min-height: 70vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  width:90%;
+}
+.footerSection1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 90%;
+  margin-bottom: 15%;
+}
+.footerSection1 h3 {
+  font-size: 2.5rem;
+  width: 45%;
+}
+.footerSection1 span {
+  text-decoration: underline;
+}
+.footerSection1 img {
+  width: 5%;
+}
+.stay {
+  display: grid;
+  grid-template-columns: 50% 20% 20% 20%;
+  width: 90%;
+}
+.stay h2 {
+  margin-bottom: 5%;
+  font-size: 25px;
+}
+.stay li {
+  font-size: 20px;
+  margin-bottom: 2%;
+}
+.EmailFeld h3 {
+  font-size: 25px;
+  margin-bottom: 2%;
+}
+.EmailFeld p {
+  font-size: 25px;
+  margin-bottom: 2%;
+}
+.EmailFeld input {
+  border: none;
+  background-color: #252422;
+  border-bottom: 2px solid #f4f4f4;
+  width: 96%;
+}
+footer {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(31, 30, 29);
+  height: 10vh;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 

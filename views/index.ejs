@@ -1,33 +1,80 @@
 <%- include('./partials/header') %>
     <main>
-        <section class="INDEXsection">
+        <section id="INDEXsection">
             <h1>WHAT’S NEXT STARTS</h1>
-            <h2>
-                <div class="punkt"></div>HERE
-            </h2>
-            <div class="videos">
-                <video src="assets/img/indexVedio.mp4" autoplay muted loop></video>
-            </div>
-           
+                <h2>
+                    <div class="punkt"></div>HERE
+                </h2>
+              <div class="videos">
+                    <video src="assets/img/indexVedio.mp4" autoplay muted loop></video>
+              </div>
             <p>STRATEGY, DESIGN, TECHNOLOGY</p>
-
-            <article>
-                <div>
-                    <h3> BASIC® is a branding and digital design agency building products, services, and ecommerce
-                        experiences
-                        that turn cultural values into company value.</h3>
+            <article id="IndexArticle">
+                <div class="basic">
+                    <h3> BASIC® is a branding and digital design agency building products, services, and ecommerce experiences that turn cultural values into company value.</h3>
+                        <a href="/work">SEE THE WORK</a>
                 </div>
-                <a href="/work">SEE THE WORK</a>
                 <div class="logoo">
                     <img src="assets/img/logoBG.svg" alt="">
                 </div>
             </article>
         </section>
-
-        <section>
+        <section id="scrole">
             <h1>FEATURED ENGAGEMENTS</h1>
-           
+                <div class="scroleDiv">
+                    <% Featu.forEach(items => {%>
+                        <div>
+                            <img src="<%= items.logo %> "alt="">
+                            <h6>––––</h6>
+                            <h4>
+                                <%= items.name %>
+                            </h4>
+                            <h5>
+                            <%= items.text %>
+                            </h5>
+                        </div>
+                        <%}) %>
+                </div>
+            </section>
+        <section id="IndexSection2">
+            <div class="Helps">
+                <div class="Helps1">
+                    <h3>
+                        BASIC® HELPS BRANDS ●CONNECT W/ CULTURE
+                    </h3>
+                    <p>ADWEEK <span>(AGENCY SPOTLIGHT)</span> </p>
+                    <a href="/about">ABOUT US</a>
+                </div>
+                <div class="video2">
+                    <video src="assets/img/Culture.mp4" autoplay muted loop></video>
+                </div>
+            </div>
+       
+        <section id="FeaturedNews">
+            <h1>FEATURED NEWS</h1>
+                <% FeaturedNews.forEach(items => {%>
+                    <div class="News">
+                        <div class="adweekNews">
+                            <img src="<%=items.img %> " alt="">
+                            <div class="adweekText">
+                                <h2>
+                                    <%=items.text %>
+                                </h2>
+                                    <p>
+                                        <%=items.source %>
+                                    <span>
+                                        <%=items.time %>
+                                    </span>
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="NewsImg">
+                            <a href=""><img src="assets/img/arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                        <%}) %>
         </section>
+    </section>
     </main>
 
     <%- include('./partials/footer') %>
