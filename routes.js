@@ -5,22 +5,22 @@ const nav = require('./nav.json')
 
 
 router.get('/', (req, res) => {
-res.render('index', { title:"Projekt Basic Agency/Home" })
+res.render('index', { title:"Projekt Basic Agency/Home",nav })
 })
 router.get('/about', (req, res) => {
-res.render('about', {  title:"Projekt Basic Agency/About"  })
+res.render('about', {  title:"Projekt Basic Agency/About" ,nav  })
 })
 router.get('/contact', (req, res) => {
-res.render('contact', {  title:"Projekt Basic Agency/Contact"})
+res.render('contact', {  title:"Projekt Basic Agency/Contact" ,nav })
 })
 router.get('/news', (req, res) => {
-res.render('news', {  title:"Projekt Basic Agency/News"})
+res.render('news', {  title:"Projekt Basic Agency/News" ,nav })
 })
 router.get('/thinking', (req, res) => {
-res.render('thinking', { title:"Projekt Basic Agency/Thinking" })
+res.render('thinking', { title:"Projekt Basic Agency/Thinking",nav  })
 })
 router.get('/work', (req, res) => {
-    res.render('work', { title:"Projekt Basic Agency/Work" })
+    res.render('work', { title:"Projekt Basic Agency/Work",nav  })
     })
 
 

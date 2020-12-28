@@ -1,2 +1,13 @@
 
-<h1>nav</h1>
+<nav id="navbar">
+    <a class="navLogo" href="/">
+        <img src="assets/img/logo.svg" alt="logo"></a>
+    <ul class="navItem">
+        <% nav.forEach(NavItem=> { %>
+            <li><a href=<%=NavItem.url %> > <%=NavItem.name %> </a></li>
+            <%})%>
+    </ul>
+    <img class="hamburgerMenu" src="assets/img/menu.svg" alt="">
+</nav>
+
+
