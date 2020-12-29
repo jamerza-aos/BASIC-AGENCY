@@ -337,6 +337,14 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
 /* /////////////  WORK //////////////// */
 #WorkMain{
   width: 90;
@@ -484,6 +492,197 @@ footer {
   font-size:17px;
   width: 50%;
   padding-top: 6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////// CONTACT ////////////// */
+#ContactMain{
+  width:90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 5%;
+}
+
+#ContachtSection{
+  display: flex;
+  min-height: 130vh;
+}
+
+.contPhoto{
+  height:100vh;
+  width: 50%;
+  background:url(/assets/img/Contact-Header.jpg) center /100% no-repeat;
+}
+
+.BRDIV ul{
+  padding-top: 15%;
+  padding-left: 3%;
+  padding-bottom: 5%;
+}
+
+.BR ,.CON{
+  font-size: 85px;
+  font-family: "scto-bold";
+}
+
+.EAS{
+  font-size:17px;
+  width:40% ;
+  font-family: "scto-medium";
+  padding-top: 10%;
+  padding-bottom: 25%;
+}
+
+.NEW{
+  display: flex;
+  padding-left: 35%;
+  margin-top: -10%;
+}
+.NEW ul{
+  padding-left: 10%;
+}
+
+
+.NE{
+  font-size:20px;
+  font-family: "scto-medium";
+}
+
+.HI{
+ padding-top: 15%;
+ padding-bottom: 15%;
+}
+.HI2{
+  padding-top: 27%;
+  padding-bottom: 15%;
+ }
+
+ .punkt2 {
+   margin-left: 3%;
+  background: #252422;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#ContachtSection2{
+  border-top:1px solid #252422;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+  font-family: "scto-medium";
+}
+
+.head h4:nth-of-type(3){
+  background: #252422;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.head h4:nth-of-type(2){
+    margin-left: -35%;
+}
+
+#ContachtSection2 section{
+  display: flex;
+  padding-top: 3%;
+  border-bottom: 1px solid #252422;
+  margin-bottom: 5%;
+  padding-bottom: 3%;
+}
+
+.offices{
+  width: 33%;
+  font-family: "scto-bold";
+  font-size: 30px;
+  border-right: 1px solid #252422;
+
+}
+
+.SA{
+  display: flex;
+  border-bottom: 1px solid #252422;
+  margin-left: 5%;
+}
+
+.SAN{
+  padding-left: 3%;
+  margin-top: 4%;
+
+}
+
+.SAN img{
+ height: 70vh;
+ width: 80%;
+}
+.SAN h3{
+  font-size:20px;
+  font-family: "scto-medium";
+  margin-top: 2%;
+  margin-bottom:2%;
+ }
+.SAN span{
+  padding-left: 68%;
+}
+
+
+.sandiego{
+  font-size:20px;
+  width: 30%;
+  font-family: "scto-medium";
+  margin-top:4%;
+}
+
+#FollowArticle {
+  display: flex;
+  height: 50vh;
+}
+
+#FollowArticle div{
+  width: 30%;
+  margin-top:5%;
+}
+
+.follow{
+  font-size:25px;
+  font-family: "scto-medium";
+}
+
+.social {
+  padding-left: 3%;
+  font-family: "scto-regular";
+}
+
+.social h2{
+  padding-bottom: 5%;
+  font-family: "scto-medium";
+}
+
+.social li{
+  font-size:20px;
+  padding-bottom: 5%;
+
 }
 
 
