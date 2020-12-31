@@ -15,9 +15,14 @@
    padding: 0;
 }
 
-body {
+#H1 {
     background-color: #f4f4f4;
 }
+#H2{
+  background-color: #252422;
+}
+
+
 a {
     text-decoration: none;
     color: inherit;
@@ -26,7 +31,7 @@ li {
     list-style-type: none;
 }
 
-#navbar {
+#navbar ,#navbar2 {
     display: flex;
     width: 90%;
     justify-content: space-between;
@@ -36,6 +41,10 @@ li {
     text-transform: uppercase;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+#navbar2{
+  color: #f9cdcd;
 }
 
 .navLogo {
@@ -286,14 +295,14 @@ li {
   width: 90%;
   margin-bottom: 15%;
 }
-.footerSection1 h3 {
+.footerSection1 h3 ,.footer2Section1 h3  {
   font-size: 2.5rem;
   width: 45%;
 }
-.footerSection1 span {
+.footerSection1 span ,.footer2Section1 span {
   text-decoration: underline;
 }
-.footerSection1 img {
+.footerSection1 img ,.footer2Section1 img  {
   width: 5%;
 }
 .stay {
@@ -323,7 +332,7 @@ li {
   border-bottom: 2px solid #f4f4f4;
   width: 96%;
 }
-footer {
+#footerMain footer ,#footer2Main footer {
   padding-left: 5%;
   padding-right: 5%;
   background-color: rgb(31, 30, 29);
@@ -333,6 +342,39 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+
+/* ////////////// FOOTER2  ///////////////// */
+#footer2Main{
+  background-color: #f4f4f4;
+}
+
+.footer2Section1 div {
+  background: url(../img/footer-logo.svg) center/cover no-repeat;
+  height: 4vh;
+  width: 5.3%;
+  display: none;
+}
+.footer2Section {
+  color: #252422;
+  background-color: #f4f4f4;
+  min-height: 70vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  width:90%;
+}
+.footer2Section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 90%;
+  margin-bottom: 15%;
+}
+
+#footer2Main footer{
+  background-color: #dfd9d9;
+}
+
 
 
 
@@ -712,8 +754,6 @@ footer {
 
 .right{
   width: 10%;
- 
-  
 }
 
 .NewsBilder img{
@@ -753,6 +793,115 @@ footer {
 }
 
 
+
+/* /////////// THINKING ///////////////////// */
+
+#ThinkingMain{
+  width: 90;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color: #252422;
+  color: #f9cdcd;
+}
+
+#ThinkingSection h1{
+  font-size:70px;
+  font-family: "scto-regular";
+  margin-top:8%;
+  margin-bottom: 7%;
+}
+#ThinkingSection span{
+  margin-left:67%;
+}
+
+.THINKHEAD {
+  display: flex;
+  width: 70%;
+}
+.BRANDBEATS{
+  margin-right: 5%;
+}
+
+.THINKHEAD h3 {
+  font-size: 25px;
+  font-family: "scto-medium";
+}
+
+.THINKHEAD p{
+  margin-top:4%;
+  width: 80%;
+  font-size: 18px;
+  letter-spacing: 1%;
+  padding-bottom: 10%;
+  font-family: "scto-medium";
+}
+
+.punkt3{
+  margin-left: 3%;
+  background-color: #f4f4f4;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* #ThinkArticle{
+  margin-top: 5%;
+} */
+
+.ThinkBilder {
+  width: 30%;
+}
+.textDivThink{
+  width: 60%;
+}
+
+.right{
+  width: 10%;
+}
+
+
+.ThinkBilder img{
+  height: 50vh;
+  width: 90%;
+}
+
+.ThinkDiv{
+  display: flex;
+ border-top: 1px solid #f9cdcd;
+ margin-top:5%;
+ padding-top: 2%;
+  
+}
+
+.textDivThink h2{  
+  font-size: 40px;
+  font-family: "scto-regular";
+  width: 70%;
+}
+
+.textDivThink h3{  
+  font-size: 38px;
+  font-family: "scto-regular";
+}
+
+.textDivThink h4{  
+  font-size: 17px;
+  font-family: "scto-regular";
+  margin-top:32%;
+}
+
+.textDivThink span{ 
+  padding-left:3%;
+  color: block;
+}
+
+.right img{
+  height: 5vh;
+  width: 5vh;
+  padding-left: 60%;
+}
 
 
 

@@ -1,0 +1,14 @@
+<nav id="navbar2">
+    <a class="navLogo" href="/">
+        <img src="assets/img/logo_pink.svg" alt="logo"></a>
+    <ul class="navItem">
+        <% nav.forEach(NavItem=> { %>
+            <li><a href=<%=NavItem.url %> > <%=NavItem.name %> </a></li>
+            <%})%>
+    </ul>
+    <img class="hamburgerMenu" id="hamburgerMenu" src="assets/img/menu_pink.svg" alt="">
+</nav>
+
+
+
+<script src="assets/js/main.js"></script>

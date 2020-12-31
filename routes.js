@@ -5,6 +5,7 @@ const nav = require('./nav.json')
 const Featu = require('./Featu.json')
 const FeaturedNews = require('./FeaturedNews.json')
 const news = require('./News.json')
+const think = require('./Thinking.json')
 
 
 router.get('/', (req, res) => {
@@ -20,7 +21,7 @@ router.get('/news', (req, res) => {
 res.render('news', {  title:"Projekt Basic Agency/News" ,nav,news })
 })
 router.get('/thinking', (req, res) => {
-res.render('thinking', { title:"Projekt Basic Agency/Thinking",nav  })
+res.render('thinking', { title:"Projekt Basic Agency/Thinking",nav , think  })
 })
 router.get('/work', (req, res) => {
     res.render('work', { title:"Projekt Basic Agency/Work",nav  })
