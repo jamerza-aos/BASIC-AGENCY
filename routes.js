@@ -4,10 +4,11 @@ const router = express.Router()
 const nav = require('./nav.json')
 const Featu = require('./Featu.json')
 const FeaturedNews = require('./FeaturedNews.json')
+const news = require('./News.json')
 
 
 router.get('/', (req, res) => {
-res.render('index', { title:"Projekt Basic Agency/Home",nav,Featu ,FeaturedNews})
+res.render('index', { title:"Projekt Basic Agency/Home",nav,Featu ,FeaturedNews })
 })
 router.get('/about', (req, res) => {
 res.render('about', {  title:"Projekt Basic Agency/About" ,nav  })
@@ -16,7 +17,7 @@ router.get('/contact', (req, res) => {
 res.render('contact', {  title:"Projekt Basic Agency/Contact" ,nav })
 })
 router.get('/news', (req, res) => {
-res.render('news', {  title:"Projekt Basic Agency/News" ,nav })
+res.render('news', {  title:"Projekt Basic Agency/News" ,nav,news })
 })
 router.get('/thinking', (req, res) => {
 res.render('thinking', { title:"Projekt Basic Agency/Thinking",nav  })

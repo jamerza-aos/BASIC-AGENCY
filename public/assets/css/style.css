@@ -686,6 +686,72 @@ footer {
 }
 
 
+/* ////////////// NEWS ///////////////// */
+#NewsMain{
+  width: 90;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+#NewsSection h1{
+  font-size:70px;
+  font-family: "scto-regular";
+  margin-top:8%
+}
+#NewsSection span{
+  margin-left:75%;
+}
+
+.NewsBilder {
+  width: 30%;
+}
+.textDiv{
+  width: 60%;
+}
+
+.right{
+  width: 10%;
+ 
+  
+}
+
+.NewsBilder img{
+  height: 30vh;
+  width: 90%;
+}
+
+.NewsDiv{
+  display: flex;
+ border-top: 1px solid #252422;
+ margin-top:5%;
+ padding-top: 2%;
+  
+}
+
+.textDiv h2{  
+  font-size: 38px;
+  font-family: "scto-regular";
+  width: 78%;
+}
+.textDiv h4{  
+  font-size: 17px;
+  font-family: "scto-regular";
+  margin-top:6%;
+}
+
+.textDiv span{ 
+  padding-left:3%;
+}
+
+
+
+.right img{
+  height: 5vh;
+  width: 5vh;
+  padding-left: 60%;
+}
+
 
 
 

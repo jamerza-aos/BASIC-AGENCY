@@ -1,3 +1,33 @@
 <%- include('./partials/header') %>
-    <h1>news</h1>
+    <main id="NewsMain">
+        <section id="NewsSection">
+            <h1>NEWS <span class="punkt"></span> </h1>
+        </section>
+        
+        <article id="NewsArticle">
+            <% news.forEach(newsItem => { %>
+
+          <div class="NewsDiv">    
+            <div class="NewsBilder">
+                <img src=<%=newsItem.img %> alt="">
+            </div>
+            <div class="textDiv">
+                <h2><%=newsItem.text%></h2>
+                <h4><%= newsItem.word %>  <span><%= newsItem.time %></span> </h4>
+                
+            </div>
+            <div class="right">
+                <img src="assets/img/arrow-black.svg" alt="" class="arrow">
+            </div>
+        </div>  
+        <% }) %>
+    </article>
+    </main>
     <%- include('./partials/footer') %>
+
+
+
+    
+
+
+
