@@ -440,14 +440,20 @@ li {
   border-radius: 30px;
 }
 
+.While a:hover{
+  background-color: #f9cdcd;
+  color: #252422;
+}
+
 #AboutSection4{
-  display: flex;
+  /* display: flex; */
+  /* position: relative; */
   padding-top: 5%;
 }
 
 #AboutSection4 h2{
   font-size: 70px;
-  color: #f9cdcd96;
+  color: #f9cdcdea;
 }
 
 
@@ -504,6 +510,45 @@ li {
   z-index: 1;
 }
 
+
+/* //////////////// HOVER //////////////// */
+#AboutSection4{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  height: 100vh;
+  
+}
+
+#AboutSection4 div {
+  position: relative;
+} 
+
+.IMGES{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: absolute; */
+}
+
+#AboutSection4 h2 span {
+  font-size: 15px;
+  position: absolute;
+  font-family: "scto-regular";
+  padding-left: 10px;
+  padding-top: 2%;
+}
+
+.IMGES img {
+  width: 40%;
+  position: absolute;
+  display: none;
+  left: 55%; 
+} 
+
+#AboutSection4 h2:hover{
+  color: white;
+}
 
 
 
