@@ -286,6 +286,7 @@ li {
 #AboutHeader{
   display: flex;
   margin-top: 5%;
+  /* padding-bottom: 15%; */
 }
 
 #AboutHeader div{
@@ -446,6 +447,7 @@ li {
 
 #AboutSection4 h2{
   font-size: 70px;
+  color: #f9cdcd96;
 }
 
 
@@ -453,6 +455,54 @@ li {
 
 
 
+
+
+
+
+/* /////////////// fotoAbout /////////// */
+
+.ArticleImages p{
+  font-size: 17px;
+  width: 40%;
+  margin-top: 90%;
+}
+
+#SectionImages{
+  display: flex;
+  min-height: 170vh;
+  margin-top: 15%;
+  border-top: 1px solid #f9cdcd;
+}
+
+#SectionImages img{
+  height: 70vh;
+}
+
+#SectionImages figure{
+  position: absolute;
+}
+
+.F1{
+  top: 200vh;
+  left: 50vh;
+  z-index: 3;
+}
+.F2 {
+  top: 220vh;
+  left: 65vh;
+  z-index: 4;
+}
+.F3 {
+  top: 210vh;
+  left: 75vh;
+  z-index: 2;
+  display: flex;
+}
+.F4 {
+  top: 230vh;
+  left: 100vh;
+  z-index: 1;
+}
 
 
 
