@@ -5,27 +5,28 @@
         </section>
         
         <article id="NewsArticle">
-            <% news.forEach(newsItem => { %>
-
-          <div class="NewsDiv">    
-            <div class="NewsBilder">
-                <img src=<%=newsItem.img %> alt="">
-            </div>
-            <div class="textDiv">
-                <h2><%=newsItem.text%></h2>
-                <h4><%= newsItem.word %>  <span><%= newsItem.time %></span> </h4>
-                
-            </div>
-            <div class="right">
-                <img src="assets/img/arrow-black.svg" alt="" class="arrow">
-            </div>
-        </div>  
-        <% }) %>
-    </article>
+            <% news.forEach(newsItem =>{ %>
+                <div class="NewsDiv">    
+                    <div class="NewsBilder">
+                        <a href="#"> <img src=<%=newsItem.img %> alt=""> </a>
+                    </div>
+                    <div class="textDiv">
+                        <h2><%=newsItem.text%></h2>
+                        <h4><%= newsItem.word %>  
+                            <span><%= newsItem.time %></span> 
+                        </h4>
+                    </div>
+                    <div class="right">
+                        <a href="#">
+                            <img src="assets/img/arrow-black.svg" alt="#" class="arrow">
+                        </a>
+                    </div>
+                </div>  
+                <% }) %>
+        </article>
+        <script src="assets/js/main.js"></script>
     </main>
-
-    <script src="assets/js/main.js"></script> 
-    <%- include('./partials/footer') %>
+    <%-include('./partials/footer')%>
 
 
 

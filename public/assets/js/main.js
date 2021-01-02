@@ -1,6 +1,6 @@
-function normalImg(index) {
-    index.style.height = "50vh";
-}
+// function normalImg(index) {
+//     index.style.height = "50vh";
+// }
 function F1(img) {
     img.style.zIndex = "5";
     img.style.position = "absolute";
@@ -35,35 +35,35 @@ function Z4(img) {
 }
 
 
-let head1 = document.getElementById("head1")
+let hover1 = document.getElementById("hover1")
 let img1 = document.getElementById("WEBBYIMG")
-head1.addEventListener("mouseover", show1)
-head1.addEventListener("mouseout", hide1)
+hover1.addEventListener("mouseover", show1)
+hover1.addEventListener("mouseout", hide1)
 
-let head2 = document.getElementById("head2")
+let hover2 = document.getElementById("hover2")
 let img2 = document.getElementById("ADWEEKIMG")
-head2.addEventListener("mouseover", show2)
-head2.addEventListener("mouseout", hide2)
+hover2.addEventListener("mouseover", show2)
+hover2.addEventListener("mouseout", hide2)
 
-let head3 = document.getElementById("head3")
+let hover3 = document.getElementById("hover3")
 let img3 = document.getElementById("AWWWARDSIMG")
-head3.addEventListener("mouseover", show3)
-head3.addEventListener("mouseout", hide3)
+hover3.addEventListener("mouseover", show3)
+hover3.addEventListener("mouseout", hide3)
 
-let head4 = document.getElementById("head4")
+let hover4 = document.getElementById("hover4")
 let img4 = document.getElementById("D&ADIMG")
-head4.addEventListener("mouseover", show4)
-head4.addEventListener("mouseout", hide4)
+hover4.addEventListener("mouseover", show4)
+hover4.addEventListener("mouseout", hide4)
 
-let head5 = document.getElementById("head5")
+let hover5 = document.getElementById("hover5")
 let img5 = document.getElementById("ONEIMG")
-head5.addEventListener("mouseover", show5)
-head5.addEventListener("mouseout", hide5)
+hover5.addEventListener("mouseover", show5)
+hover5.addEventListener("mouseout", hide5)
 
-let head6 = document.getElementById("head6")
+let hover6 = document.getElementById("hover6")
 let img6 = document.getElementById("THEIMG")
-head6.addEventListener("mouseover", show6)
-head6.addEventListener("mouseout", hide6)
+hover6.addEventListener("mouseover", show6)
+hover6.addEventListener("mouseout", hide6)
 
 function show1() {
     img1.style.display = "block",
