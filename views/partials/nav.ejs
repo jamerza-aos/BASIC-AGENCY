@@ -4,12 +4,9 @@
         <img src="assets/img/logo.svg" alt="logo"></a>
     <ul class="navItem">
         <% nav.forEach(NavItem=> { %>
-            <li><a href=<%=NavItem.url %> > <%=NavItem.name %> </a></li>
+            <li><a href=<%=NavItem.url %> > 
+                <%=NavItem.name %> </a></li>
             <%})%>
     </ul>
-    <img class="hamburgerMenu" id="hamburgerMenu" src="assets/img/menu.svg" alt="">
+    <img class="hamburgerMenu" src="assets/img/menu.svg" alt="">
 </nav>
-
-
-
-<script src="assets/js/main.js"></script>
