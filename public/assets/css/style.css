@@ -324,26 +324,30 @@ li {
   margin-top: 2%;
 }
 
-.BRANDED li:nth-of-type(1), .DIGITAL li:nth-of-type(1),.WEBSITES li:nth-of-type(1) {
+.WEBSITES ,.BRANDING4{
+  margin-top: 2%;
+}
+
+.BRANDED li:nth-of-type(1), .DIGITAL li:nth-of-type(1),.WEBSITES li:nth-of-type(1),.BRANDING4 li:nth-of-type(1) {
   font-size: 25px;
   font-family: "scto-medium";
 }
 
-.BRANDED li:nth-of-type(2), .DIGITAL li:nth-of-type(2) ,.WEBSITES li:nth-of-type(2) {
+.BRANDED li:nth-of-type(2), .DIGITAL li:nth-of-type(2) ,.WEBSITES li:nth-of-type(2),.BRANDING4 li:nth-of-type(2) {
   font-size: 30px;
   width:50%;
   padding-top: 40%;
   font-family: "scto-medium";
 }
 
-.BRANDED li:nth-of-type(3), .DIGITAL li:nth-of-type(3) ,.WEBSITES li:nth-of-type(3)  {
+.BRANDED li:nth-of-type(3), .DIGITAL li:nth-of-type(3),.WEBSITES li:nth-of-type(3) ,.BRANDING4 li:nth-of-type(3)  {
   font-size: 18px;
   width:95%;
   padding-top: 10%;
   font-family: "scto-regular";
 }
 
-.BRANDED a, .DIGITAL a ,.WEBSITES a{
+.BRANDED a, .DIGITAL a ,.WEBSITES a ,.BRANDING4 a{
   display: inline-block;
   font-family: "scto-bold";
   border: 1px solid #252422;
@@ -352,7 +356,7 @@ li {
   margin-top: 20%;
 }
 
-.BRANDED a:hover, .DIGITAL a:hover,.WEBSITES a:hover  { 
+.BRANDED a:hover, .DIGITAL a:hover,.WEBSITES a:hover,.BRANDING4 a:hover   { 
   color: #fff;
   background-color: #252422;
 }
@@ -409,16 +413,18 @@ li {
 }
 
 .WEBSITES {
-  width:40%
+  width:41%
 }
 
-.Fender img ,.Riot img {
+.Fender img {
   width: 92%;
   height: 64vh;
 }
 
-.PHOTOS ul ,.PHOTOS2 ul {
-  padding-left: 2%;
+.SoftBank img {
+  width: 96%;
+  height: 61.3vh;
+  margin-left: -2%;
 }
 
 .American img { 
@@ -426,11 +432,40 @@ li {
   width: 93%;
 }
 .PHOTOS2 img{
-  width:89%;
+  width:90%;
+}
+
+.PHOTOS ul {
+  padding-left: 3%;
+}
+
+.PHOTOS2 ul {
+ padding-left: 4.2%;
 }
 
 
-.PHOTOS li:nth-of-type(2), .American li:nth-of-type(2){
+.PHOTOS2 li:nth-of-type(2), .SoftBank li:nth-of-type(2){
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 5%;
+  font-family: "scto-bold";
+  padding-left: 2%;
+}
+
+
+.PHOTOS2 li:last-child, .SoftBank li:last-child,
+.PHOTOS3 li:last-child, .Brixton li:last-child {
+  padding-left: 3%;
+  width: 45%;
+  font-size: 16px;
+  font-family: "scto-medium";
+  padding-top: 5%;
+}
+
+
+
+.PHOTOS li:nth-of-type(2), .American li:nth-of-type(2),
+.PHOTOS3 li:nth-of-type(2), .Brixton li:nth-of-type(2){
   font-size: 25px;
   font-weight: bold;
   padding-top: 5%;
@@ -448,7 +483,41 @@ li {
 
 
 
+.BRANDING4 {
+  width:41%;
+}
 
+.NERD{
+  display:flex;
+  justify-content: space-between;
+  border-left: 1px solid #252422;
+  margin-top: 2%;
+}
+
+.PHOTOS3 img {
+  width: 84%;
+  height: 62vh;
+}
+
+.Brixton img {
+  width: 100%;
+  height: 62vh;
+  margin-left: -9%;
+}
+
+.PHOTOS3 li:last-child{
+   width:50%;
+}
+
+.PHOTOS3 ul {
+  padding-left: 4.2%;
+ }
+
+ .Brixton li:nth-of-type(2),.Brixton li:last-child{
+   margin-left:-5%;
+ }
+
+ 
 
 
 
