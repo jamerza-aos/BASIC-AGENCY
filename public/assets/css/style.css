@@ -15,7 +15,6 @@
     margin:0;
     padding:0;
 }
-
 #H1{
     background-color:#f4f4f4;
 }
@@ -31,6 +30,134 @@ a{
 
 li{
     list-style-type:none;
+}
+
+
+
+.nav-logo {
+    width: 8%;
+}
+.hamburger {
+    width: 2%;
+}
+.navItem {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+.navItem li:hover {
+    border-bottom: 1px solid #252422;
+}
+.hamburger-list {
+    position: fixed;
+    height: 91vh;
+    background: #252422;
+    width: 90%;
+    top: 0;
+    right: -100%;
+    overflow-y: auto;
+    z-index: 1000;
+    color: #f9cdcd;
+    padding: 5% 5% 0 5%;
+    font-family: scto-medium;
+    transition: right 1s;
+}
+.internal {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.head-text {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.head-text h4 {
+    font-family: "scto-regular";
+    font-size: 25px;
+    margin-top: -4%;
+}
+.head-text h4:first-child {
+    width: 35%;
+    margin-right: 15%;
+}
+  
+.internal img {
+    width: 2%;
+  }
+  
+.internal-fiq {
+    display: flex;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    min-width: 100%;
+    margin-top: 5%;
+    background-color: inherit;
+    height: 80vh;
+}
+.internal-fiq figure {
+    border-left: 2px solid #f9cdcd;
+    padding-left: 3%;
+    margin-left: 3%;
+    height: 70vh;
+    width: 100%;
+}
+.internal-fiq div {
+    margin-right: 4%;
+    width: 100%;
+}
+.internal-fiq h2 {
+    font-family: "scto-medium";
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.internal-fiq h3 {
+    font-family: "scto-medium";  
+    margin-bottom: 10%;
+}
+.internal-fiq p {
+    margin-top: 5%;
+    font-family: "scto-regular";
+}
+.internal-fiq a {
+    font-family: "scto-regular";
+    border: 2px solid #f9cdcd;
+    padding: 3% 8%;
+    border-radius: 30px;
+}
+.internal-fiq a:hover {
+    color: #252422;
+    background-color: #f9cdcd;
+    border: 2px solid #f9cdcd;
+}
+.internal-fiq img {
+    height: 50vh;
+    width: 500px;
+    transition: all 1 linear;
+}
+.hidden {
+    display: none;
+    transition: all 1s linear;
+    margin-bottom: 5%;
+}
+.internal-fiq::-webkit-scrollbar {
+    border-radius: 5px;
+}
+.internal-fiq::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background: #252400;
+}
+.internal-fiq::-webkit-scrollbar-thumb {
+    background: #252422;
+    border-radius: 5px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.internal-fiq :hover .hidden {
+    display: block;
 }
 
 #navbar,#navbar2{

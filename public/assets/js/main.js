@@ -30,3 +30,14 @@ function Z4(img) {
     img.style.zIndex = 1;
     img.style.position = "absolute";
 }
+
+const burger = document.getElementById("hamburger")
+const closeBurger = document.getElementById("close")
+const hamburger = document.getElementById("overlay")
+
+burger.addEventListener("click", () => {
+    hamburger.style.right = "0%"
+})
+closeBurger.addEventListener("click", () => {
+    hamburger.style.right = "-100%"
+})
